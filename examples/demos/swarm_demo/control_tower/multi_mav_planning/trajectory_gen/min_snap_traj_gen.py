@@ -43,6 +43,7 @@ First wp(waypont) conditions:
 
 i-th waypoint conditions:
     x_i-1(ti)    =  waypoint(i) 
+    x_i(ti)      =  waypoint(i)
     x_i-1'(ti)   =  x_i'(ti)
     x_i-1''(ti)  =  x_i''(ti)
     x_i-1'''(ti) =  x_i'''(ti)
@@ -61,7 +62,7 @@ i-th waypoint conditions:
         x_i(ti)                     =  waypoint(i) 
     )
 
-Last wp(waipont) conditions:
+Last wp(waypoint) conditions:
     x(-1) = waypoint(-1)
     x'(-1) = x''(-1)=x'''(-1)= 0 
 
